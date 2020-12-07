@@ -53,7 +53,7 @@ public class SuperAdditionTest {
     }
     
         @org.junit.Test
-    public void testSuperaddition() {
+    public void testSuperaddition1() {
         System.out.println("superaddition");
         String a = "x";
         String b = "y";
