@@ -22,6 +22,13 @@ public class SuperAddition {
         if(a.equals("1") && b.equals("2")) {
             return "4";
         }
+        if(a.equals("1") && b.equals("1")){
+            return "0";
+        }
+        if(a.equals("a") && b.equals("b")) {
+            return "e";
+        }
+
         else
         {
 
@@ -32,6 +39,11 @@ public class SuperAddition {
 class isNumeric {
     public static boolean isNumeric(String str)
     {
+        if(str == null || str.isEmpty())
+        {
+            return false;
+        }
+
     for (char c : str.toCharArray())
     {
         if (!Character.isDigit(c) && c!=45) return false;
