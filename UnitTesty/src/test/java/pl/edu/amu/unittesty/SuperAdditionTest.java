@@ -136,4 +136,27 @@ public class SuperAdditionTest {
         //fail("The test case is a prototype.");
     }
     
+    @org.junit.Test
+    public void testSuperaddition8() {
+        System.out.println("superaddition");
+        String a = "99";
+        String b = "1";
+        String expResult = "4";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+
+    @org.junit.Test
+    public void testSuperaddition9() {
+        System.out.println("superaddition");
+        String a = "z1";
+        String b = "m2";
+        String expResult = "m1z2";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
 }
